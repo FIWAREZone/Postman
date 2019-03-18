@@ -5,15 +5,15 @@ Colección de peticiones y variables de entorno
 
 Para hacer pruebas con la API de FIWARE será necesario disponer de una herramienta que permita hacer peticiones HTTP e interactuar con ésta. En este caso, recomendamos la herramienta Postman ya que permite gestionar y configurar de forma sencilla una colección de peticiones, por lo que será muy sencillo realizar las operaciones necesarias.
 
-Postman nos permite definir un catálogo de peticiones (Collection) y variables de entorno (Environment) que, posteriormente, podemos exportar para compartirlas con otras personas. 
+Postman nos permite definir un catálogo de peticiones ([Collection](FIWARE%20Zone%20Course.postman_collection.json)) y variables de entorno ([Environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json)) que, posteriormente, podemos exportar e importar para compartirlas con otras personas. 
 
 # Instalación y configuración de Postman
 
 1. Descargar [Postman](https://www.getpostman.com/) e instalar.
 
-2. Descargar el [Collection](FIWARE%20Zone%20Course.postman_collection.json) de peticiones que se van a utilizar en la práctica. [Descargar](https://github.com/FIWAREZone/IoT_Course/blob/master/postman/FIWARE%20Zone%20Course.postman_collection.json) (botón derecho -> Guardar enlace como...)
+2. Descargar el [Collection](FIWARE%20Zone%20Course.postman_collection.json) de peticiones que se van a utilizar en la práctica. [Descargar](https://github.com/FIWAREZone/Postman/blob/master/FIWARE%20Zone%20Course.postman_collection.json) (botón derecho -> Guardar enlace como...)
 
-3. Descargar el [environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) de variable de entorno necesarias para que funcione el "Collection". [Descargar](https://github.com/FIWAREZone/IoT_Course/blob/master/postman/FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) (botón derecho -> Guardar enlace como...)
+3. Descargar el [environment](FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) de variable de entorno necesarias para que funcione el "Collection". [Descargar](https://github.com/FIWAREZone/Postman/blob/master/FIWARE%20Zone%20Course%20Enviroment%20Template.postman_environment.json) (botón derecho -> Guardar enlace como...)
 
 4. En este punto debemos tener Postman instalado y dos ficheros con extensión ".json" en nuestro PC.
 
@@ -27,7 +27,7 @@ Postman nos permite definir un catálogo de peticiones (Collection) y variables 
 
 ![Importar Environment](https://github.com/danvilmot/IoT_Course/blob/master/postman/files/import_environment.jpg)
 
-8. Configurar las credenciales: user, password, service y subservice (Service Path) que se darán en el curso de formación.
+8. Configurar las credenciales: user, password, service y subservice (Service Path) que serán indicados durante la realización del curso de formación.
 
 
 
